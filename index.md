@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Blog"
+title: ""
 
 I am a medic, clinical epidemiologist, and population health scientist with a strong interest in cardiometabolic diseases in the Mexican population.
 
