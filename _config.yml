@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home Change", icon: home}
-  - {file: "README.md", title: "About me", icon: address-card}
+  - {title: "CV", url: "https://github.com/diegojehu/c_vitae/blob/main/CV/CV_DAR.pdf"}
+  - {title: "Research Group", url: "https:"https://www.ctsu.ox.ac.uk/team/diego-aguilar-ramirez"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:diego.aguilar-ramirez@ndph.ox.ac.uk"}
