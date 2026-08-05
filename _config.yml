@@ -1,6 +1,6 @@
 title: "Diego Aguilar-Ramírez"
 author: "Diego Aguilar-Ramírez"
-description: "University of Oxford"
+description: "Medic, clinical epidemiologist, and population health scientist"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -19,7 +19,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md"}
   - {title: "CV", url: "https://github.com/diegojehu/c_vitae/blob/main/CV/CV_DAR.pdf"}
   - {title: "Bio", url: "https://www.ctsu.ox.ac.uk/team/diego-aguilar-ramirez"}
-#  - {file: "blog.md"} add when there is a post available
+  - {title: "GitHub", url: "https://github.com/diegojehu"}
+  - {title: "Scholar", url: "https://scholar.google.co.uk/citations?view_op=list_works&hl=en&user=J8t2FMAAAAAJ"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:diego.aguilar-ramirez@ndph.ox.ac.uk"}
