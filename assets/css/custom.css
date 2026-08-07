@@ -1,15 +1,15 @@
 article > header h1 { display: none; }
 
 .intro { padding: 2.5rem 0 1rem; }
-.eyebrow, .card-label { color: #6b7280; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.intro h1 { color: #212228; font-size: clamp(2.2rem, 5vw, 4.3rem); line-height: 1.05; margin: .5rem 0 1rem; max-width: 12ch; }
-.lede { color: #4b5563; font-size: 1.25rem; line-height: 1.55; max-width: 42rem; }
-article h2 { color: #212228; font-size: 1.15rem; letter-spacing: .04em; margin-top: 3rem; }
+.eyebrow, .card-label { color: inherit; opacity: .65; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.intro h1 { color: inherit; font-size: clamp(2.2rem, 5vw, 4.3rem); line-height: 1.05; margin: .5rem 0 1rem; max-width: 12ch; }
+.lede { color: inherit; opacity: .82; font-size: 1.25rem; line-height: 1.55; max-width: 42rem; }
+article h2 { color: inherit; font-size: 1.15rem; letter-spacing: .04em; margin-top: 3rem; }
 .cards { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 1.25rem 0 2rem; }
 .card { border: 1px solid #e5e7eb; border-radius: .5rem; display: flex; flex-direction: column; gap: .5rem; padding: 1.25rem; text-decoration: none; transition: border-color .2s, transform .2s; }
 .card:hover, .card:focus { border-color: #6688ee; transform: translateY(-2px); }
-.card strong { color: #212228; font-size: 1.05rem; }
-.card span:last-child { color: #6b7280; font-size: .95rem; line-height: 1.45; }
+.card strong { color: inherit; font-size: 1.05rem; }
+.card span:last-child { color: inherit; opacity: .75; font-size: .95rem; line-height: 1.45; }
 @media (max-width: 36em) { .cards { grid-template-columns: 1fr; } .intro { padding-top: 1rem; } }
 
 @media (prefers-color-scheme: dark) {
