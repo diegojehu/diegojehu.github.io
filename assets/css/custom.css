@@ -13,8 +13,10 @@ article h2 { color: #212228; font-size: 1.15rem; letter-spacing: .04em; margin-t
 @media (max-width: 36em) { .cards { grid-template-columns: 1fr; } .intro { padding-top: 1rem; } }
 
 @media (prefers-color-scheme: dark) {
-  .intro h1, article h2, .card strong { color: #ffffff; }
+  body, article { color: #f8fafc; }
+  .intro h1, article h2, .card strong { color: #f8fafc; }
   .lede, article p, .card span:last-child { color: #d1d5db; }
-  .eyebrow, .card-label { color: #cbd5e1; }
-  .card { border-color: #4b5563; }
+  .eyebrow, .card-label { color: #94a3b8; }
+  .card { background: #292a31; border-color: #4b5563; }
+  article a { color: #9bb2ff; }
 }
